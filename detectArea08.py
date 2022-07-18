@@ -348,7 +348,7 @@ def run(weights=ROOT / 'area2.pt',  # model.pt path(s)
                         pred_y_point = int((arr[3] + arr[1]) / 2)
 
                         spot = findSpot(pred_x_point, pred_y_point)
-                        print("spot: ", spot, names[c], arr)
+                        # print("spot: ", spot, names[c], arr)
 
                         if spot is not None:
                             if str(spotData[spot]) == "True":
